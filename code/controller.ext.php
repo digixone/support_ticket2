@@ -1,5 +1,4 @@
 <?php
-
 /**
  *
  * ZPanel - A Cross-Platform Open-Source Web Hosting Control panel.
@@ -24,48 +23,31 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-  /*
- * Support Ticket for ZpanelX Linux Version
- * By: JD1pinoy
- * Email: jd1pinoy@gmx.ph
- * Website: http://www.digix1.net | http://www.digix1.com
- */
+ /* ZpanelX Support Ticket Apps by HESK */
  
 class module_controller {
 	
 	static function getModuleName() {
-		$module_name = ui_module::GetModuleName();
+        $module_name = ui_module::GetModuleName();
         return $module_name;
     }
 
-	static function getModuleIcon() {
-		global $controller;
-		$module_icon = "modules/" . $controller->GetControllerRequest('URL', 'module') . "/assets/icon.png";
+    static function getModuleIcon() {
+        global $controller;
+        $module_icon = "modules/" . $controller->GetControllerRequest('URL', 'module') . "/assets/icon.png";
         return $module_icon;
     }
 
-	static function getModuleDesc() {
-		$message = ui_language::translate(ui_module::GetModuleDescription());
+    static function getModuleDesc() {
+        $message = ui_language::translate(ui_module::GetModuleDescription());
         return $message;
     }
-		
-	static function getAccount(){
-		self::SetAccount();
-	}
 	
-	static function getUserName(){
+	static function getmainFrame () {
 		global $controller;
-		$currentuser = ctrl_users::GetUserDetail();
-		$username = $currentuser['username'];
-		return $username;
+        $file = "./modules/support_ticket2/hesk/mainframe.html";
+        $mainFrame = fs_filehandler::ReadFileContents($file); 
+        return $mainFrame;
 	}
-	
-	static function getUserPass(){
-		global $controller;
-		$currentuser = ctrl_users::GetUserDetail();
-		$password = $currentuser['password'];
-		return $password;
-	}
-// This will be updated soon, We are still on BETA.
 }
 ?>
