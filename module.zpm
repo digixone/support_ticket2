@@ -2,42 +2,42 @@
 <div class="zmodule_content" id="zmodule_header_<@ ModuleName @>">
 <div class="zmodule_desc" id="zmodule_desc_<@ ModuleName @>"></div>
 <br />
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type='text/javascript'>
-function setIframeHeight( iframeId )
-{
- var ifDoc, ifRef = document.getElementById( iframeId );
- try
- {   
-  ifDoc = ifRef.contentWindow.document.documentElement;  
- }
- catch( e )
- { 
-  try
-  { 
-   ifDoc = ifRef.contentDocument.documentElement;  
-  }
-  catch(ee)
-  {   
-  }  
- }
-  if( ifDoc )
- {
-  ifRef.height = 2;  
-  ifRef.height = ifDoc.scrollHeight;
-  
-  /* For width resize, enable below.  */
-  
-  // ifRef.width = 1;
-  // ifRef.width = ifDoc.scrollWidth; 
- }
+function doIframe(){
+ o = document.getElementsByTagName('iframe');
+	for(i=0;i<o.length;i++){
+		if (/\bautoHeight\b/.test(o[i].className)){
+			setHeight(o[i]);
+			addEvent(o[i],'load', doIframe);
+		}
+	}
 }
 
+function setHeight(e){
+	if(e.contentDocument){
+		e.height = e.contentDocument.body.offsetHeight + 35;
+	} else {
+		e.height = e.contentWindow.document.body.scrollHeight;
+	}
+}
+
+function addEvent(obj, evType, fn){
+	if(obj.addEventListener)
+	{
+	obj.addEventListener(evType, fn,false);
+	return true;
+	} else if (obj.attachEvent){
+	var r = obj.attachEvent("on"+evType, fn);
+	return r;
+	} else {
+	return false;
+	}
+}
+
+if (document.getElementById && document.createTextNode){
+ addEvent(window,'load', doIframe);	
+}
 </script>
 </head>
-<body>
-<iframe id="aa_iframe" src="/modules/support_ticket2/hesk/" style="border:0px #FFFFFF none;" name="aa_iframe" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" onload = "setIframeHeight( this.id )" width="100%"></iframe>
-</body>
+<@ mainFrame @>
