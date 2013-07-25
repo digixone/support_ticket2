@@ -112,7 +112,7 @@ $num_mail = $num_mail ? '<b>'.$num_mail.'</b>' : 0;
 			<td>&nbsp;&nbsp;&nbsp;</td>
 			<td><a href="mail.php"><img src="../img/ico_mail.gif" width="26" height="26" border="0" alt="<?php echo $hesklang['menu_msg']; ?>" title="<?php echo $hesklang['menu_msg']; ?>" /><br /><?php echo $hesklang['menu_msg']; ?> (<?php echo $num_mail; unset($num_mail); ?>)</a><br /><img src="../img/blank.gif" width="50" height="1" alt="" /></td>
 			<td>&nbsp;&nbsp;&nbsp;</td>
-			<td><a href="index.php?a=logout&amp;token=destroyed"><img src="../img/ico_logout.gif" width="26" height="26" border="0" alt="<?php echo $hesklang['logout']; ?>" title="<?php echo $hesklang['logout']; ?>" /><br /><?php echo $hesklang['logout']; ?></a><br /><img src="../img/blank.gif" width="50" height="1" alt="" /></td>
+			<td><a href="index.php?a=logout&amp;token=31033e5bae1d2bc0bfa36e5479d34b9b32966c8adda80fd12521b2ca0f6a7b67cfef5c182cbb21bdfb7228fe6142a2b7"><img src="../img/ico_logout.gif" width="26" height="26" border="0" alt="<?php echo $hesklang['logout']; ?>" title="<?php echo $hesklang['logout']; ?>" /><br /><?php echo $hesklang['logout']; ?></a><br /><img src="../img/blank.gif" width="50" height="1" alt="" /></td>
 			</tr>
 			</table>
 
