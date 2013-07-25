@@ -44,7 +44,7 @@ class module_controller {
     }
 	
 	static function getmainFrame () {
-		global $controller;
+	global $controller;
         $file = "./modules/support_ticket2/hesk/mainframe.html";
         $mainFrame = fs_filehandler::ReadFileContents($file); 
         return $mainFrame;
