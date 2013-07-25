@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML; 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>HESK - Changelog</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="docs_style.css" />
+</head>
+
+<body>
+<div id="wrapper">
+<div id="main">
+<h1><span class="dest">HESK&trade;</span> PHP Help Desk Software</h1>
+
+<table width="100%">
+<tr>
+<td width="50%" style="text-align:left;vertical-align:top">
+ <ul class="nobullets">
+ <li>Version: 2.3 from 15th September 2011</li>
+ <li>Developed by: Klemen Stirn</li>
+ <li><a href="http://www.hesk.com">Help Desk Software HESK</a></li>
+ <li><a href="http://www.phpjunkyard.com">Free PHP Scripts</a></li>
+ </ul>
+</td>
+<td width="50%" style="text-align:right;vertical-align:top">
+ <ul class="nobullets">
+ <li><a href="index.html">HESK documentation</a></li>
+ <li><a href="step-by-step-guide.html">Step by step guide</a></li>
+ <li><a href="quick-guide.html">Quick guide</a></li>
+ <li><b>Changelog</b></li>
+ </ul>
+</td>
+</tr>
+</table>
+
+<h2>HESK CHANGELOG</h2>
+
+<p><b>Changes in 2.3</b><br />
+- a &quot;What You See is What You Get&quot; (WYSIWYG) editor for Knowledgebase articles<br />
+- import tickets into Knowledgebase articles<br />
+- automatically assign tickets to appropriate staff<br />
+- staff can change status of tickets<br />
+- two new ticket status options: On Hold, In Progress<br />
+- staff can set ticket priority to &quot;Critical&quot;<br />
+- view what staff is currently online<br />
+- create tickets from email (email piping)<br />
+- support for sending emails using a SMTP server rather than PHP mail()<br />
+- improved ticket sorting algorithm and new sorting options.<br />
+- change default ticket display and sorting in the admin homepage<br />
+- find tickets by email and sequential ticket ID<br />
+- brute force protection for both ticket view and staff login<br />
+- Hesk is now IPv6 ready<br />
+- fixed bug where required custom fields with value 0 would return an error<br />
+- fixed bug where emails were sometimes not sent to all staff when changing ticket category<br />
+- fixed bug where knowledgebase article count wasn't updated properly<br />
+- fixed a potential security issue on servers with PHP register_globals enabled<br />
+- renamed &quot;Close ticket&quot; to &quot;Mark as Resolved&quot; for clarity<br />
+- renamed &quot;Archived&quot; to &quot;Tagged&quot; for clarity<br />
+- you can require customers to enter both ticket ID and email to view a ticket<br />
+- modified ticket ID format so it is easier to read and repeat<br />
+- limit view of unassigned tickets to staff<br />
+- a number of error-handling and interface changes to make Hesk even more user friendly<br />
+- a number of minor changes and fixes.</p>
+
+<p><b>Changes in 2.2</b><br />
+- assign owners to tickets (assign tickets to individual staff members)<br />
+- admin panel shows last repliers' name<br />
+- more information can be entered into e-mails (category, message, ticket owner, custom fields)<br />
+- staff can now submit tickets<br />
+- added reporting features<br />
+- added staff private messages<br />
+- check for duplicate tracking ID<br />
+- improved ticket searching<br />
+- fixed bug where edit_post rewrites session variables when register_globals is enabled<br />
+- fixed bug where e-mails and URLs don't show correctly when editing ticket<br />
+- fixed bug where last replier didn't show correctly after deleting a post<br />
+- lock/unlock individual tickets<br />
+- new way of suggesting KB articles<br />
+- ticket history log (who closed, opened, locked or unlocked a ticket)<br />
+- more user-friendly error and success message handling<br />
+- added checks to fight CSRF-type attacks<br />
+- generate URLs that will pre-load category selection when submitting new tickets<br />
+- settings will now accept localhost URLs<br />
+- purge attachments when the ticket is deleted<br />
+- disable customer setting ticket priority level<br />
+- a number of minor changes and fixes.</p>
+
+<p><b>Changes in 2.1</b><br />
+- Full support for multiple languages<br />
+- Knowledgebase articles can now have attachments<br />
+- Increased custom fields number to 20<br />
+- Checkboxes now supported as custom fields<br />
+- Autologin feature<br />
+- Staff can edit all ticket details<br />
+- New redirect options after replying to a ticket (settable in Profile)<br />
+- Canned responses can be appended to the message instead of replacing it<br />
+- A read-only access to private knowledgebase by all staff<br />
+- Fixed numerous small bugs and issues thanks to large code testing and screening<br />
+- Improved security<br />
+- HESK moved to <a href="http://www.hesk.com">www.hesk.com</a> Web site, links within the script updated accordingly</p>
+
+<p><b>Changes in 2.0</b><br />
+- Updated user interface<br />
+- Fully featured knowledge base (categories, articles (counting views, able to rate), search, ...)<br />
+- Display of latest and top articles<br />
+- Before a ticket is submitted HESK will suggest matching Knowledgebase articles<br />
+- You can add notes to tickets (hidden from customer, viewable by staff)<br />
+- Limit features for staff (not just Administrator/Staff, now you can enable/disable individual features for individual users)<br />
+- Rating of staff replies (Helpful/Not helpful)<br />
+- Up to 10 custom field now<br />
+- Custom fields can be text, textarea, select or radio button<br />
+- Disable list users in admin<br />
+- Remember staff username<br />
+- Default ticket listing by status (new, waiting reply first) then priority<br />
+- Staff passwords encrypted - not simple SHA1, but multiple times<br />
+- Admin files moved to &quot;admin&quot; folder<br />
+- Added prefix to database names<br />
+- Autoclose tickets after X days<br />
+- Adjust server time to match your local time<br />
+- Updated anti-SPAM features<br />
+- And many other changes</p>
+
+<p><b>Changes in 0.94.1</b><br />
+- Fixed an XSS vulnerability on some servers (reported by Nemanja Avramovic, <a href="http://www.avramovic.info" rel="nofollow">www</a>)<br />
+- Changed the way file uploads are handled</p>
+
+<p><b>Changes in 0.94</b><br />
+- Added support for custom fields (up to 5)<br />
+- Added file attachments<br />
+- Added anti-SPAM security image<br />
+- Added canned responses<br />
+- Settings are now edited from the admin panel<br />
+- New ticket statuses (New, Replied, Waiting Reply, Resolved)<br />
+- Ticket ID reminder<br />
+- And many other changes (too many to list here)</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:center">&copy; Copyright <a href="http://www.hesk.com">HESK.COM</a> 2005-2011. All rights reserved.</p>
+
+</div>
+</div>
+</body>
+</html>

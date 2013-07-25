@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+<name>Support Ticket</name>
+<version>100</version>
+<type>user</type>
+<defaultcat>Account Information</defaultcat>
+<desc>Click this module if you need help by submitting a support ticket.</desc>
+<authorname>JD1pinoy</authorname>
+<authoremail>jd1pinoy@gmx.ph</authoremail>
+<authorurl>http://zpxmod.net.tc</authorurl>
+<updateurl>http://zpxmod.net.tc/filebox/zpp/up_st2.xml</updateurl>
+</module>
