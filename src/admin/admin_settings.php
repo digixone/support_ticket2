@@ -460,7 +460,7 @@ function checkTime(i)
         <table width="100%" border="0">
 		<tr>
 		<td style="text-align:right" width="200"><?php echo $hesklang['hesk_title']; ?>: [<a href="Javascript:void(0)" onclick="Javascript:hesk_window('../help_files/helpdesk.html#6','400','500')"><b>?</b></a>]</td>
-		<td><input type="text" name="s_hesk_title" size="40" maxlength="255" value="<?php echo $hesk_settings['hesk_title']; ?>" /></td>
+		<td><input type="text" readonly="readonly" name="s_hesk_title" size="40" maxlength="255" value="<?php echo $hesk_settings['hesk_title']; ?>" /></td>
 		</tr>
 		<tr>
 		<td style="text-align:right" width="200"><?php echo $hesklang['hesk_url']; ?>: [<a href="Javascript:void(0)" onclick="Javascript:hesk_window('../help_files/helpdesk.html#7','400','500')"><b>?</b></a>]</td>
@@ -855,6 +855,7 @@ function checkTime(i)
 
 		<!-- Custom fields -->
 		<span class="section">&raquo; <?php echo $hesklang['custom_use']; ?></span> [<a href="Javascript:void(0)" onclick="Javascript:hesk_window('../help_files/custom.html#41','400','500')"><b>?</b></a>]
+
 
         <br />&nbsp;
 
