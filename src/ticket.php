@@ -31,6 +31,13 @@
 *  a license please visit the page below:
 *  https://www.hesk.com/buy.php
 *******************************************************************************/
+session_start();
+if (!isset($_SESSION['zpuid'])) {
+    die("<h1>Unathorised request!</h1> 
+	<p>HESK Request not accessible outside!</p>
+	<p>Please login to your Zpanel Control panel.</P>
+	");
+}
 
 define('IN_SCRIPT',1);
 define('HESK_PATH','./');
