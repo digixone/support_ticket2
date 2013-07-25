@@ -38,6 +38,7 @@ if (!isset($_SESSION['zpuid'])) {
 	<p>Please login to your Zpanel Control panel.</P>
 	");
 }
+
 define('IN_SCRIPT',1);
 define('HESK_PATH','../');
 
@@ -449,6 +450,15 @@ function print_login() {
                 <br />&nbsp;
 				</td>
         </tr>
+		<!-- ADD CUSTOMIZED CLOSE BUTTON LOGIN PAGE -->
+		<tr>
+                <td width="60">&nbsp;</td>
+				<td><input type="submit" value="Close Window" onClick="window.close()" class="orangebutton" onmouseover="hesk_btn(this,'orangebuttonover');" onmouseout="hesk_btn(this,'orangebutton');" />
+                <input type="hidden" name="a" value="do_login" />
+				<br />&nbsp;
+				</td>
+        </tr>
+		<!-- END CUSTOMIZED CLOSE BUTTON LOGIN PAGE -->
         </table>
 
         </form>
@@ -473,6 +483,7 @@ function print_login() {
     exit();
 } // End print_login()
 
+session_start();
 
 function logout() {
 	global $hesk_settings, $hesklang;
