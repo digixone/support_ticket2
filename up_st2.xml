@@ -1,6 +1,6 @@
 <updateserver>
 <name>Support Ticket</name>
-<version>100</version>
+<version>120</version>
 <type>user</type>
 <defaultcat>Account Information</defaultcat>
 <desc>Click this module if you need help by submitting a support ticket.</desc>
