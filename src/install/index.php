@@ -72,7 +72,7 @@ hesk_iHeader();
 
 <p>This tool will help you install and configure HESK on your server.</p>
 
-<p><font color="#FF0000">PLEASE <a href="../docs/index.html">READ INSTALLATION GUIDE</a> BEFORE RUNNING THIS INSTALLATION SCRIPT!</font></p>
+<p><font color="#FF0000">PLEASE <a href="../docs/index.html" target="_blank">READ INSTALLATION GUIDE</a> BEFORE RUNNING THIS INSTALLATION SCRIPT!</font></p>
 
 
 <hr />
