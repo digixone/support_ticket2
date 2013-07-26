@@ -8,9 +8,13 @@ This Support Ticket for ZpanelX project is free.
 What is used in this project?
 
 HESK Help Desk Software free edition:
-SysAid, sponsors of HESK, offers an all-in-one IT help desk and asset management software, which includes a set of integrated, essential features to: automate help desk management, monitor assets, and manage all your IT tasks on one platform.
+SysAid, sponsors of HESK, offers an all-in-one IT help desk and asset management software, 
+which includes a set of integrated, essential features to: automate help desk management, 
+monitor assets, and manage all your IT tasks on one platform.
 
-If you are planning to use this with your own branding.. please proceed to HESK website to see more information on Paid HESK Help Desk Software.
+
+If you are planning to use this with your own branding.. 
+please proceed to HESK website to see more information on paid HESK Help Desk Software.
 
 
 Free Edition Information:
