@@ -4,7 +4,7 @@
 <body>
 <p class="style1"><strong>support_ticket2</strong><br />
 ===============</p>
-<h2 class="style1">Support Ticket for Linux</h2>
+<h2 class="style1">Support Ticket for ZpanelX Linux</h2>
 <p class="style1">This Support Ticket for ZpanelX project is free. </p>
 <p class="style1">What is used in this project?</p>
 <p class="style1">HESK Help Desk Software free edition:<br />
