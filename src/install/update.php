@@ -1781,7 +1781,7 @@ If any provision hereof shall be held illegal, invalid or unenforceable, in whol
 <input type="hidden" name="agree" value="YES" />
 <input type="submit" value="YES, I AGREE (Click to continue)" class="orangebutton" onmouseover="hesk_btn(this,'orangebuttonover');" onmouseout="hesk_btn(this,'orangebutton');" />
 &nbsp;
-<input type="button" onclick="javascript:parent.location='index.php'" value="NO, I DO NOT AGREE (Cancel setup)" class="orangebutton" onmouseover="hesk_btn(this,'orangebuttonover');" onmouseout="hesk_btn(this,'orangebutton');" />
+<input type="button" onclick="javascript:self.location='index.php'" value="NO, I DO NOT AGREE (Cancel setup)" class="orangebutton" onmouseover="hesk_btn(this,'orangebuttonover');" onmouseout="hesk_btn(this,'orangebutton');" />
 </p>
 
 </td>
