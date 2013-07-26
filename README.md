@@ -16,13 +16,13 @@
   please proceed to HESK website to see more information on paid HESK Help Desk Software.<br />
 </p>
 <p class="style1">Free Edition Information:<br />
-  Visit http://www.hesk.com/</p>
+Visit http://www.hesk.com/</p>
 <p class="style1">Buy HESK Help Desk Software<br />
-  https://www.hesk.com/buy.php</p>
+https://www.hesk.com/buy.php</p>
 <p class="style1">ZpanelCP Website:<br />
-  http://www.zpanelcp.com/</p>
-<p class="style1">Credits:</p>
-<p class="style1">Web Panel module script Copyright © ZPanel Project 2012. All rights reserved.<br />
+http://www.zpanelcp.com/</p>
+<p class="style1">Credits:<br>
+  Web Panel module script Copyright © ZPanel Project 2012. All rights reserved.<br />
   © Copyright Hesk.com 2005-2013. All Rights Reserved. Privacy policy<br />
   ® HESK is a registered trademark of Klemen Stirn. Help Desk Software.<br />
 </p>
