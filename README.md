@@ -22,7 +22,7 @@ https://www.hesk.com/buy.php</p>
 <p class="style1">ZpanelCP Website:<br />
 http://www.zpanelcp.com/</p>
 <p class="style1">Credits:<br>
-  Web Panel module script Copyright © ZPanel Project 2012. All rights reserved.<br />
+  © ZPanel Project 2012. All rights reserved. Web Panel module script Copyrights<br />
   © Copyright Hesk.com 2005-2013. All Rights Reserved. Privacy policy<br />
   ® HESK is a registered trademark of Klemen Stirn. Help Desk Software.<br />
 </p>
