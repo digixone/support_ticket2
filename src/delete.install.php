@@ -1,20 +1,28 @@
 <?php
 /***
-| Please do not delete this file or installation might not work.
-| Hello World Creation: jd1pinoy@gmx.ph
+| Change name
 ***/
 $target = "install"; 
-$newName = "_install";
+$newName = "_delete_me";
 $renameResult = rename($target, $newName);
 // Evaluate the value returned from the function if needed
 if ($renameResult == true) {
-    echo $target . "<h3>is now renamed as</h3>" . $newName;
+    echo "<div class=style2 style=color:#FF0000><b>$target</b></div>" . "<div class=style3><h4>is now renamed as</h4></div>" . "<div class=style2 style=color:#0000FF><b>$newName</b></div>";
 } else {
-     echo "<h3>Could not rename that folder</h3>";
+     echo "<div class=style1><h3>Could not rename that folder</h3></div>";
 }
+chmod("module.zpm",0777);
 ?>
 <html>
 <head>
+<title>Change Interface</title>
+<script language="Javascript" type="text/javascript" src="../hesk_javascript.js"></script>
+<script>
+    window.onunload = refreshParent;
+    function refreshParent() {
+        window.opener.location.reload();
+    }
+</script>
 <!--
 <script>
 function reloadPage()
@@ -23,8 +31,30 @@ function reloadPage()
   }
 </script>
 -->
+<style type="text/css">
+<!--
+body {
+background-color: #EAEAEA;
+}
+.style1 {
+font-family: Geneva, Arial, Helvetica, sans-serif
+}
+.style2 {
+font-family: Geneva, Arial, Helvetica, sans-serif; 
+font-size: small;
+text-transform:uppercase;
+}
+.style3 {
+font-family: Geneva, Arial, Helvetica, sans-serif; 
+)
+-->
+</style>
 </head>
+<!--<body onload=setTimeout("self.close()",5000)>-->
 <body>
-<p><h3>Please refresh this page now.</h3></p>
+<br/><br/>
+<input type="button" onclick="javascript:self.location='index.php'" value=" RELOAD PAGE " class="orangebutton" onmouseover="hesk_btn(this,'orangebuttonover');" onmouseout="hesk_btn(this,'orangebutton');" />
+  </p>
+  </span></h4>
 </body>
 </html>
