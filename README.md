@@ -27,6 +27,7 @@ ZpanelCP Website:
 http://www.zpanelcp.com/
 
 Credits:
-Web Panel module script Copyright © ZPanel Project 2012. All rights reserved.
+
+Web Panel module script Copyright © ZPanel Project 2012. All rights reserved.<br>
 © Copyright Hesk.com 2005-2013. All Rights Reserved. Privacy policy
 ® HESK is a registered trademark of Klemen Stirn. Help Desk Software.
