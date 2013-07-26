@@ -27,8 +27,8 @@ $hesk_settings['db_pfix']='hesk_';
 /*** HELP DESK ***/
 
 /* --> Help desk settings */
-$hesk_settings['hesk_title']='Help Desk';
-$hesk_settings['hesk_url']='http://www.domain.com/helpdesk';
+$hesk_settings['hesk_title']='ZpanelX Help Desk';
+$hesk_settings['hesk_url']='http://domains.digix1.net';
 $hesk_settings['server_path']='/home/mysite/public_html/helpdesk';
 $hesk_settings['max_listings']=20;
 $hesk_settings['print_font_size']=12;
