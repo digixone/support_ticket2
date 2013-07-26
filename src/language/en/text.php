@@ -18,22 +18,22 @@ $hesklang['cant_connect_db']='Can\'t connect to database!
     <tr>
       <td width="130">Database Name</td>
       <td width="10">:</td>
-      <td width="174">zadmin_hesk (Default)</td>
+      <td width="174"><b>zadmin_hesk</b> (Default)</td>
     </tr>
     <tr>
       <td>Database Username</td>
       <td>:</td>
-      <td>zadmin (Default)</td>
+      <td><b>zadmin</b> (Default)</td>
     </tr>
     <tr>
       <td>Database Password</td>
       <td>:</td>
-      <td>Create your own password</td>
+      <td>You must <b>CREATE</b> your own password</td>
     </tr>
   </table><br/>
   <p><b><a href="/?module=mysql_databases" target="_blank">Create Zadmin Hesk Database Now!</a></b></p>
   <p><b>NOTE:</b> Make sure that you created the HESK database that is given<br/>
-  and make sure that you are logged in as Zpanel "Zadmin" as user, then click <a href="/modules/support_ticket2/hesk/install/install.php">HERE</a> to proceed. </p>
+  and make sure that you are logged in as Zpanel "Zadmin" as user<br/> before you begin to the install process, click <a href="/modules/support_ticket2/hesk/install/install.php">HERE</a> to proceed. </p>
 </center><br /><br /><br />';
 $hesklang['invalid_action']='Invalid action';
 $hesklang['select_username']='Please select your username';
