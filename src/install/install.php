@@ -1332,11 +1332,11 @@ If any provision hereof shall be held illegal, invalid or unenforceable, in whol
 
 <p align="center">
 <input type="hidden" name="agree" value="YES" />
-<input type="button" value=" CREATE DATABASE " class="orangebutton" onclick="window.open('/?module=mysql_databases')" />
+<!--<input type="button" value=" CREATE DATABASE " class="orangebutton" onclick="window.open('/?module=mysql_databases')" />-->
 &nbsp;
 <input type="submit" value=" YES,I AGREE " class="orangebutton" onmouseover="hesk_btn(this,'orangebuttonover');" onmouseout="hesk_btn(this,'orangebutton');" />
 &nbsp;
-<input type="button" onclick="javascript:parent.location='index.php'" value=" NO, I DO NOT AGREE " class="orangebutton" onmouseover="hesk_btn(this,'orangebuttonover');" onmouseout="hesk_btn(this,'orangebutton');" />
+<input type="button" onclick="javascript:self.location='index.php'" value=" NO, I DO NOT AGREE " class="orangebutton" onmouseover="hesk_btn(this,'orangebuttonover');" onmouseout="hesk_btn(this,'orangebutton');" />
 </p>
 
 </td>
