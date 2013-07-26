@@ -1327,7 +1327,7 @@ If any provision hereof shall be held illegal, invalid or unenforceable, in whol
 <table border="0">
 <tr>
 <td><center>
-<p><b>Create your Zadmin Hesk database first before we proceed to the installation process, click</b> <font color="#FF0000"><i>"Create Database"</i></font>
+<!--<p><b>Create your Zadmin Hesk database first before we proceed to the installation process, click</b> <font color="#FF0000"><i>"Create Database"</i></font>-->
 <br /><br/><b>Do you agree to the License agreement and all the terms incorporated therein?</b> <font color="#FF0000"><i>(required)</i></center></font></b></p>
 
 <p align="center">
