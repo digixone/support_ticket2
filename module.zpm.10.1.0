@@ -40,8 +40,6 @@ if (document.getElementById && document.createTextNode){
  addEvent(window,'load', doIframe);	
 }
 </script>
-</head>
-<@ mainFrame @>
 <style type="text/css">
 <!--
 .style1 {
@@ -50,4 +48,6 @@ if (document.getElementById && document.createTextNode){
 }
 -->
 </style>
+</head>
+<@ mainFrame @>
 <span class="style1">Support Ticket Version 2 | Zpanel 10.1.0</span>
