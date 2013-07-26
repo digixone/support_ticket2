@@ -49,5 +49,9 @@ class module_controller {
         $mainFrame = fs_filehandler::ReadFileContents($file); 
         return $mainFrame;
 	}
+	
+	static function getInterFace () {
+		return 'NOTE:<br/> This will delete 10.0.2 interface. <br/>You must only change interface if you are using ZpanelX 10.1.0 version.';
+	}
 }
 ?>

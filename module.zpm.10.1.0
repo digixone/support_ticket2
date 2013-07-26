@@ -42,3 +42,12 @@ if (document.getElementById && document.createTextNode){
 </script>
 </head>
 <@ mainFrame @>
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+}
+-->
+</style>
+<span class="style1">Support Ticket Version 2 | Zpanel 10.1.0</span>
