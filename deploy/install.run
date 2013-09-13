@@ -1,9 +1,8 @@
 <?php
 /***
 | Transfer files from source to destination path
-| Script install.run adopted from: VJftw AjaXplorer Module (VJftw @ ZPanel Forums)
-| Thanks to VJftw for letting me use the install.run file for Zpanel Module
-| Modified copyleft by: jd1pinoy@gmx.ph
+| Original Script from: VJftw AjaXplorer Module (VJftw @ ZPanel Forums)
+| Thanks to VJftw for letting me use his install.run file for Zpanel Module
 ***/
 $tmp = '/hesk :- ';
 
@@ -89,6 +88,9 @@ error_log($tmp.'Moving src files to '.$dst);
 copyFolderContents($src, $dst);
 // remove the App files that were just copied
 removeDirectoryContents($src);
+
+$output = shell_exec('rm -r -f /etc/zpanel/panel/modules/support_ticket2/src');
+echo "$output";
 /*
 | End of File: install.run
 */
