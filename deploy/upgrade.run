@@ -1,0 +1,7 @@
+<?php
+//Upgrade interface from 10.0.2 to 10.1.0
+$output = shell_exec('mv /etc/zpanel/panel/modules/support_ticket2/deploy/module.zpm /etc/zpanel/panel/modules/support_ticket2/module.zpm');
+echo "Updating 10.0.2 to 10.1.0 interface, please wait....\n";
+$output = shell_exec('rm -r -f /etc/zpanel/panel/modules/support_ticket2/src');
+echo "Removing and cleaning up temp files.....\n";
+?>

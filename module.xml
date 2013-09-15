@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <module>
 <name>Support Ticket</name>
+<<<<<<< HEAD
 <version>120</version>
+=======
+<version>130</version>
+>>>>>>> 60930e83f1e46c5a2ddecd9b1c662057847d1fb8
 <type>user</type>
 <defaultcat>Account Information</defaultcat>
 <desc>Click this module if you need help by submitting a support ticket.</desc>
