@@ -40,15 +40,6 @@ if (document.getElementById && document.createTextNode){
 }
 </script>
 </head>
+<body>
 <@ mainFrame @>
-<button class="fg-button ui-state-default ui-corner-all" type="submit" onClick="window.open('/modules/support_ticket2/change.php','popup','width=365,height=215,top=10,left=10,scrollbars=yes,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><: Change to 10.1.0 Interface :></button>
-<br/>
-<style type="text/css">
-<!--
-.style1 {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: xx-small;
-}
--->
-</style>
-<span class="style1"><@ InterFace @></style>
+</body>
