@@ -43,3 +43,4 @@ if (document.getElementById && document.createTextNode){
 <body>
 <@ mainFrame @>
 </body>
+<br/><br/><center><div style="font-size: 8pt; color: #0099FF;"><: ZPanelX Module by: JD1pinoy :></font></center></div>
