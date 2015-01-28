@@ -829,7 +829,7 @@ elseif ($problem==2)
 </tr>
 <tr>
 <td>User Password:</td>
-<td><input type="text" name="pass" value="<?php $hesk_settings['db_pass']; ?>" placeholder="<?php echo $hesk_settings['db_pass']; ?>" size="40" /></td>
+<td><input type="text" name="pass" value="<?php $hesk_settings['db_pass']; ?>" placeholder="<?php echo $hesk_settings['db_pass']; ?>" autocomplete="off" size="40" /></td>
 </tr>
 <tr>
 <td>Table prefix:</td>
