@@ -5,9 +5,9 @@
 
 /* --> General settings */
 $hesk_settings['site_url']='http://www.digix1.net';
-$hesk_settings['support_mail']='support@domain.com';
+$hesk_settings['support_mail']='support@yourdomain.com';
 $hesk_settings['webmaster_mail']='jd1pinoy@gmx.ph';
-$hesk_settings['noreply_mail']='noreply@domain.com';
+$hesk_settings['noreply_mail']='noreply@yourdomain.com';
 
 /* --> Language settings */
 $hesk_settings['can_sel_lang']=0;
@@ -18,9 +18,9 @@ $hesk_settings['languages']=array(
 
 /* --> Database settings */
 $hesk_settings['db_host']='localhost';
-$hesk_settings['db_name']='zadmin_hesk';
-$hesk_settings['db_user']='zadmin';
-$hesk_settings['db_pass']='Insert your created PW';
+$hesk_settings['db_name']='zadmin_';
+$hesk_settings['db_user']='Insert your created Username';
+$hesk_settings['db_pass']='Insert your created Password';
 $hesk_settings['db_pfix']='hesk_';
 
 
