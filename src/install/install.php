@@ -812,7 +812,7 @@ elseif ($problem==2)
     echo '<p style="color:#FF0000;"><b>Database connection failed!</b><br />Double-check <b>database name</b> and make sure the user has access to the database. If not sure contact your hosting company for the correct information!<br /><br />MySQL said: '.mysql_error().'</p>';
 }
 ?>
-
+<!--/readonly="readonly"-->
 <form action="install.php" method="post">
 <table>
 <tr>
@@ -821,15 +821,15 @@ elseif ($problem==2)
 </tr>
 <tr>
 <td>Database Name:</td>
-<td><input type="text" name="name" readonly="readonly" value="<?php echo $hesk_settings['db_name']; ?>" size="40" /></td>
+<td><input type="text" name="name" value="<?php echo $hesk_settings['db_name']; ?>" placeholder="<?php echo $hesk_settings['db_name']; ?>" size="40" /></td>
 </tr>
 <tr>
 <td>Database User (login):</td>
-<td><input type="text" name="user" readonly="readonly" value="<?php echo $hesk_settings['db_user']; ?>" size="40" /></td>
+<td><input type="text" name="user" value="<?php $hesk_settings['db_user']; ?>" placeholder="<?php echo $hesk_settings['db_user']; ?>" size="40" /></td>
 </tr>
 <tr>
 <td>User Password:</td>
-<td><input type="text" name="pass" value="<?php echo $hesk_settings['db_pass']; ?>" size="40" /></td>
+<td><input type="text" name="pass" value="<?php $hesk_settings['db_pass']; ?>" placeholder="<?php echo $hesk_settings['db_pass']; ?>" size="40" /></td>
 </tr>
 <tr>
 <td>Table prefix:</td>
