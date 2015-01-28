@@ -11,29 +11,30 @@ $hesklang['LANGUAGE']='English';
 $hesklang['ENCODING']='iso-8859-1';
 
 /* ERROR MESSAGES */
-$hesklang['cant_connect_db']='Can\'t connect to database! 
+$hesklang['cant_connect_db']='<strong>Can\'t connect to database!</strong> 
 <br /><br /><br/><center>
-  <p>""First you need to create your Zadmin HESK Database Name, Database Username, and Database Password.""    </p>
-  <table width="328" border="0">
+  <p>""<strong>IMPORTANT NOTICE:</strong> This module should be installed under your <strong>ZADMIN</strong> account!<br/>
+  First you need to create your Zadmin HESK Database Name, Database Username, and Database Password.""</p>
+  <table width="450" border="0">
     <tr>
-      <td width="130">Database Name</td>
+      <td width="90">Database Name</td>
       <td width="10">:</td>
-      <td width="174">zadmin_hesk (Default)</td>
+      <td width="195">zadmin_YOUR DB NAME (eg: zadmin_myhesk)</td>
     </tr>
     <tr>
       <td>Database Username</td>
       <td>:</td>
-      <td>zadmin (Default)</td>
+      <td>YOUR USERNAME</td>
     </tr>
     <tr>
       <td>Database Password</td>
       <td>:</td>
-      <td>CREATE your own password</td>
+      <td>YOUR PASSWORD</td>
     </tr>
   </table><br/>
   <p><b><a href="/?module=mysql_databases" target="_blank">Create Zadmin Hesk Database Now!</a></b></p>
   <p><b>NOTE:</b> Make sure that you created the HESK database that is given<br/>
-  from the instruction and make sure that you are logged in as Zpanel "Zadmin" <br/>as user before you begin to the install process or it will not work,<br/> click <a href="/modules/support_ticket2/hesk/install/install.php">HERE</a> to proceed. </p>
+  from the instruction and make sure that you are logged in as "Zadmin" account<br/>as user before you begin to the install process or it will not work,<br/> click <a href="/modules/support_ticket2/hesk/install/install.php">HERE</a> to proceed. </p>
 </center><br /><br /><br />';
 $hesklang['invalid_action']='Invalid action';
 $hesklang['select_username']='Please select your username';
